@@ -33,6 +33,7 @@ public class Lofin_Page extends javax.swing.JFrame {
 
         jTextField1_Username = new javax.swing.JTextField();
         jPasswordField1_Password = new javax.swing.JPasswordField();
+        jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
@@ -58,6 +59,9 @@ public class Lofin_Page extends javax.swing.JFrame {
         jPasswordField1_Password.setForeground(new java.awt.Color(150, 150, 150));
         jPasswordField1_Password.setText("jPassworim");
         getContentPane().add(jPasswordField1_Password, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 410, 250, 40));
+
+        jLabel1.setText("essakhi");
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 90, -1, -1));
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/login_form/last one 3.jpg"))); // NOI18N
         jLabel2.setText("jLabel2");
@@ -143,6 +147,7 @@ public class Lofin_Page extends javax.swing.JFrame {
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JCheckBox jCheckBox1;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPasswordField jPasswordField1_Password;
     private javax.swing.JTextField jTextField1_Username;
